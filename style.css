@@ -8,17 +8,20 @@
 .flyer-preview:hover img{transform:scale(1.035)}
 @media(max-width:650px){.flyer-preview{height:230px}}
 @media(max-width:390px){.flyer-preview{height:300px}}
+
+
 .flyer-container {
     width: 100%;
-    text-align: center;
+    max-width: 800px;
     margin: 30px auto;
 }
 
 .flyer-image {
     display: block;
-    width: 100%;
-    max-width: 800px;
+    width: 20%;
     height: auto;
-    margin: 0 auto;
-    border-radius: 12px;
+    border: none;
+    box-shadow: none;
 }
+
+
