@@ -25,3 +25,305 @@
 }
 
 
+/* =================================
+   JO&PIXEL - THEME CHIC ET ELEGANT
+   Beige, taupe et rose poudré
+================================= */
+
+:root {
+    --beige: #F5F0E9;
+    --beige-clair: #FBF8F4;
+    --beige-sable: #E8DED3;
+    --taupe-clair: #D8C9BA;
+    --taupe: #A18E7D;
+    --taupe-fonce: #79685D;
+    --rose: #E8C9CE;
+    --rose-clair: #F5E6E8;
+    --blanc: #FFFFFF;
+    --texte: #65574F;
+}
+
+/* FOND GENERAL */
+
+body {
+    background-color: var(--beige);
+    color: var(--texte);
+    font-family: 'Georgia', serif;
+    margin: 0;
+}
+
+/* CONTENEURS */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* EN-TETE ET MENU */
+
+.header {
+    background-color: var(--beige-clair);
+    border-bottom: 1px solid var(--beige-sable);
+}
+
+.header__part {
+    background-color: var(--beige-clair);
+}
+
+.header__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--taupe-fonce);
+}
+
+.logo__title {
+    color: var(--taupe-fonce);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu {
+    color: var(--taupe-fonce);
+}
+
+.menu__item {
+    color: var(--taupe-fonce);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu__item:hover {
+    color: #C58F9A;
+}
+
+/* TITRES */
+
+h1, h2, h3,
+.segment__title {
+    color: var(--taupe-fonce);
+    font-weight: 600;
+}
+
+/* BOUTONS */
+
+.btn,
+.btn-creations,
+.btn-contact {
+    display: inline-block;
+    background-color: var(--taupe);
+    color: var(--blanc);
+    border: none;
+    border-radius: 25px;
+    padding: 11px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn-creations:hover,
+.btn-contact:hover {
+    background-color: #C58F9A;
+    color: var(--blanc);
+    transform: translateY(-2px);
+}
+
+/* CHANGEMENT DE THEME */
+
+#theme-switch {
+    background-color: var(--rose);
+    color: var(--taupe-fonce);
+}
+
+.theme-button {
+    border: 1px solid var(--taupe-clair);
+}
+
+/* SECTIONS */
+
+.segment {
+    background-color: var(--beige);
+    padding: 35px 20px;
+}
+
+.segment__title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* CARTES */
+
+.cards {
+    gap: 25px;
+}
+
+.card {
+    background-color: var(--beige-clair);
+    border: 1px solid var(--beige-sable);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(90, 70, 55, 0.07);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card__image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card__content {
+    color: var(--texte);
+    padding: 15px;
+}
+
+.card__title {
+    color: var(--taupe-fonce);
+}
+
+.card__desc {
+    color: var(--texte);
+}
+
+.card__action {
+    padding: 15px;
+}
+
+/* FLYER */
+
+.flyer-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.flyer-container h2 {
+    color: var(--taupe-fonce);
+}
+
+.flyer-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(90, 70, 55, 0.10);
+}
+
+/* COMMENTAIRES */
+
+.review {
+    background-color: var(--beige-clair);
+    border-left: 4px solid var(--rose);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    color: var(--texte);
+}
+
+.review__title {
+    color: var(--taupe-fonce);
+}
+
+.review__stars {
+    color: #C58F9A;
+}
+
+/* FILTRES */
+
+.filters {
+    color: var(--taupe-fonce);
+}
+
+input[type="checkbox"] {
+    accent-color: #C58F9A;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    background-color: var(--beige-sable);
+    color: var(--taupe-fonce);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.newsletter__title {
+    color: var(--taupe-fonce);
+}
+
+.newsletter__field {
+    background-color: var(--beige-clair);
+    border: 1px solid var(--taupe-clair);
+    border-radius: 20px;
+    padding: 12px;
+    color: var(--texte);
+}
+
+/* PIED DE PAGE */
+
+.footer {
+    background-color: var(--taupe-fonce);
+    color: var(--blanc);
+    text-align: center;
+    padding: 25px;
+}
+
+.footer p {
+    color: var(--blanc);
+}
+
+/* LIENS */
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #C58F9A;
+}
+
+/* RESPONSIVE - TELEPHONE */
+
+@media screen and (max-width: 768px) {
+
+    .header__flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+    }
+
+    .segment {
+        padding: 20px 12px;
+    }
+
+    .flyer-container {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .logo__title {
+        font-size: 23px;
+    }
+}
+
