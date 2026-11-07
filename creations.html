@@ -1,11 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mes créations - Jo&Pixel</title>
-    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,26 +18,64 @@
 
         <nav>
             <a href="index.html">Accueil</a>
-            <a href="index.html#quisuisje">Qui suis-je ?</a>
+            <a href="quisuisje.html" class="btn-quisuisje">
+                Qui suis-je ?
+            </a>
         </nav>
     </header>
 
     <main>
-        <section class="flyer-container">
 
-            <h2>Mon flyer – Séjour bien-être</h2>
+        <div class="galerie">
 
-            <img
-                src="images/flyer-sejour-bien-etre.png"
-                alt="Flyer séjour bien-être"
-                class="flyer-image">
+            <img src="images/Anniversaire adulte.png"
+                 alt="Anniversaire adulte"
+                 onclick="agrandirImage(this)">
 
-        </section>
+            <img src="images/Anniversaire enfant.png"
+                 alt="Anniversaire enfant"
+                 onclick="agrandirImage(this)">
+
+            <img src="images/Baby Shower.png"
+                 alt="Baby Shower"
+                 onclick="agrandirImage(this)">
+
+            <img src="images/flyer-sejour-bien-etre.png"
+                 alt="Séjour bien-être"
+                 onclick="agrandirImage(this)">
+
+            <img src="images/Halloween.png"
+                 alt="Halloween"
+                 onclick="agrandirImage(this)">
+
+            <img src="images/Mariage.png"
+                 alt="Mariage"
+                 onclick="agrandirImage(this)">
+
+            <img src="images/patchwork photos.png"
+                 alt="Patchwork photos"
+                 onclick="agrandirImage(this)">
+
+            <img src="images/Soirée Jeux de Société.png"
+                 alt="Soirée jeux de société"
+                 onclick="agrandirImage(this)">
+
+        </div>
+
+        <!-- Fenêtre d'agrandissement -->
+        <div id="lightbox" onclick="fermerImage()">
+            <span class="fermer">&times;</span>
+            <img id="imageAgrandie" src="" alt="">
+        </div>
+
     </main>
 
     <footer class="footer">
         <p>Jo&Pixel - Créations personnalisées</p>
     </footer>
+
+    <!-- Chargement du JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 </html>
