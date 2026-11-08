@@ -1,0 +1,136 @@
+PAGE QUI SUIS-JE
+
+/* .presentation-page {
+    background: #F5F0E9;
+    padding: 55px 20px;
+} */
+
+/* .presentation-card {
+    max-width: 850px;
+    margin: auto;
+    background: #FBF8F4;
+    border: 1px solid #E8C9CE;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(101, 87, 79, 0.08);
+} */
+
+/* .presentation-intro {
+    background: #F5E6E8;
+    text-align: center;
+    padding: 45px 25px;
+} */
+
+/* .presentation-intro .petit-titre {
+    color: #A18E7D;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.presentation-intro h1 {
+    color: #79685D;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin: 15px 0;
+} */
+/* 
+.presentation-intro p {
+    color: #65574F;
+}
+
+.presentation-contenu {
+    padding: 35px 50px;
+    color: #65574F;
+    line-height: 1.7;
+}
+
+.presentation-contenu h2 {
+    color: #79685D;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 25px;
+} */
+
+/* .presentation-bloc {
+    margin: 25px 0;
+    padding: 18px 22px;
+    background: #F5E6E8;
+    border-radius: 14px;
+} */
+/* 
+.presentation-bloc h3 {
+    color: #A18E7D;
+    margin-top: 0;
+    font-family: Georgia, serif;
+}
+
+.presentation-bloc p {
+    margin-bottom: 0;
+}
+
+.presentation-conclusion {
+    margin-top: 35px;
+    padding: 25px;
+    background: #E8C9CE;
+    border-radius: 16px;
+    text-align: center;
+} */
+
+/* .presentation-conclusion h2 {
+    color: #79685D;
+}
+
+.presentation-conclusion strong {
+    color: #79685D;
+    display: block;
+    margin-top: 18px;
+} */
+
+/* @media (max-width: 600px) {
+    .presentation-page {
+        padding: 25px 12px;
+    }
+
+    .presentation-contenu {
+        padding: 25px 20px;
+    }
+
+    .presentation-intro h1 {
+        font-size: 28px;
+    }
+} */
+
+/* PRESENTATION PAGE QUI SUIS-JE */
+
+.page-quisuisje {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.carte-quisuisje {
+    background-color: #FBF8F4;
+    padding: 45px;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(96, 53, 46, 0.08);
+    line-height: 1.9;
+    color: #65574F;
+}
+
+.carte-quisuisje h2 {
+    text-align: center;
+    color: #B88991;
+    margin-bottom: 30px;
+}
+
+.carte-quisuisje p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .carte-quisuisje {
+        padding: 25px;
+    }
+}
+
