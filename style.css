@@ -549,4 +549,110 @@ body {
     }
 }
 
+/* CORRECTION CENTRAGE DU CORPS DE PAGE */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 25px 80px;
+    box-sizing: border-box;
+}
+
+.services > h2 {
+    text-align: center;
+}
+
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card__content {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+@media (max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 550px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* PHOTOS DES SERVICES */
+
+.card__image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 18px 18px 0 0;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+/* BOUTON CONTACT CENTRE */
+
+.contact-accueil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 60px;
+    box-sizing: border-box;
+}
+
+.contact-accueil .btn-accueil {
+    display: inline-block;
+    text-align: center;
+    background-color: #E8C9CE;
+    color: #65574F;
+    padding: 14px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-accueil .btn-accueil:hover {
+    background-color: #B88991;
+    color: white;
+}
+
 
