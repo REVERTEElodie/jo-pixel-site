@@ -736,5 +736,26 @@ main {
         box-sizing: border-box;
     }
 }
+/* LOGO EN HAUT DU SITE */
 
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+/* CENTRER LE LOGO */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
 
